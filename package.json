@@ -17,6 +17,8 @@
   "homepage": "https://github.com/Tanzimul-Hasib/Shoping-Cart#readme",
   "description": "",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.6"
   }
 }
