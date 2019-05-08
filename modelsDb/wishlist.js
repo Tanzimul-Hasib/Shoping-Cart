@@ -4,7 +4,7 @@ const ObjectId = Schema.ObjectId;
 
 const wishlist= new Schema({
 	title: {type:String, default:"My Wish list"},
-	products: {type: ObjectId, ref: 'product'}
+	products: [{type: ObjectId, ref: 'Product'}]
 });
 
 module.exports = mongoose.model('wishlist',wishlist);
